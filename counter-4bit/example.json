@@ -1,0 +1,9 @@
+{
+  "name": "counter-4bit",
+  "version": "1.0.0",
+  "author": "Jesús Arroyo",
+  "license": "GPL-2.0",
+  "keywords": "",
+  "description": "Counter 4 bit with enable and reset",
+  "icestudio": ">=0.2.1"
+}
