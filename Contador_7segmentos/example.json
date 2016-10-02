@@ -1,0 +1,9 @@
+{
+  "name": "Display 7 segmentos (Cátodo común)",
+  "version": "1.0.0",
+  "author": "Carlos Diaz",
+  "license": "GPL-2.0",
+  "keywords": "display, contador",
+  "description": "Contador ascendente que muestra la cuenta en un display de 7 segmentos",
+  "icestudio": ">=0.2.1"
+}
