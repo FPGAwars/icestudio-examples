@@ -2,10 +2,10 @@
   "image": "",
   "state": {
     "pan": {
-      "x": -153.00000000000682,
-      "y": -427.9999999999188
+      "x": 265.9999945771439,
+      "y": -400.00000036230495
     },
-    "zoom": 1
+    "zoom": 0.999999987057639
   },
   "board": "icestick",
   "graph": {
@@ -171,7 +171,7 @@
         "id": "d5ea284c-bae9-4a86-9fb1-311f73b99997",
         "type": "basic.code",
         "data": {
-          "code": "`define MAX_COUNT 4'hF\n\nreg [3:0] _o;\n\nalways @(posedge clk) begin\n    if(_o == `MAX_COUNT) begin\n        _o <= 1'b0;\n    end\n    _o <= _o + 1;\nend\n\nassign {o3, o2, o1, o0} = _o;",
+          "code": "localparam MAX_COUNT = 4'hF;\n\nreg [3:0] _o;\n\nalways @(posedge clk) begin\n    _o <= _o + 1;\n    \n    if(_o == MAX_COUNT) begin\n        _o <= 1'b0;\n    end\n    \nend\n\nassign {o3, o2, o1, o0} = _o;",
           "ports": {
             "in": [
               "clk"
