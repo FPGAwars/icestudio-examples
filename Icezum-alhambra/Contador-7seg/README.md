@@ -22,5 +22,5 @@ Es necesario conectar una **placa externa** con el display de 7 segmentos
 
 Para proteger la placa de los 7 segmentos, se puede usar [esta carcasa imprimible en 3D](https://github.com/Obijuan/3D-parts/wiki/Carcasa-para-placa-con-display-7-segmentos)
 
-![]()
+![](https://github.com/FPGAwars/icestudio-examples/raw/master/Icezum-alhambra/Contador-7seg/doc/7seg-box-1.jpg)
 
