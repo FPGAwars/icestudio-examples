@@ -5,7 +5,7 @@
       "x": 284.6443520742548,
       "y": 40.96948824230639
     },
-    "zoom": 0.8287810313066994
+    "zoom": 0.8287810267109085
   },
   "board": "icestick",
   "graph": {
@@ -223,15 +223,6 @@
         }
       },
       {
-        "id": "d88d99b9-9155-4760-9b1e-9b28b703870b",
-        "type": "250ms",
-        "data": {},
-        "position": {
-          "x": 16,
-          "y": 296
-        }
-      },
-      {
         "id": "b6754af6-cffe-47d2-b29e-df35de458ac4",
         "type": "basic.info",
         "data": {
@@ -240,6 +231,15 @@
         "position": {
           "x": 224,
           "y": 400
+        }
+      },
+      {
+        "id": "56047fdb-8feb-48e5-baca-d148245ee4f1",
+        "type": "250ms",
+        "data": {},
+        "position": {
+          "x": 24,
+          "y": 296
         }
       }
     ],
@@ -476,22 +476,22 @@
       },
       {
         "source": {
-          "block": "d88d99b9-9155-4760-9b1e-9b28b703870b",
+          "block": "8d6dece9-e3b8-42d4-b8eb-386c90440923",
+          "port": "out"
+        },
+        "target": {
+          "block": "56047fdb-8feb-48e5-baca-d148245ee4f1",
+          "port": "7967b348-34d1-48ed-a1ff-13ffa20be33e"
+        }
+      },
+      {
+        "source": {
+          "block": "56047fdb-8feb-48e5-baca-d148245ee4f1",
           "port": "41449406-f581-4507-a0fa-f6a1acf6f65d"
         },
         "target": {
           "block": "d057b192-853d-403f-a089-5a8fde9301da",
           "port": "clk"
-        }
-      },
-      {
-        "source": {
-          "block": "8d6dece9-e3b8-42d4-b8eb-386c90440923",
-          "port": "out"
-        },
-        "target": {
-          "block": "d88d99b9-9155-4760-9b1e-9b28b703870b",
-          "port": "7967b348-34d1-48ed-a1ff-13ffa20be33e"
         }
       }
     ]
@@ -1066,7 +1066,7 @@
           "x": 0,
           "y": 0
         },
-        "zoom": 0.9999999981963122
+        "zoom": 0.9999999891834782
       },
       "graph": {
         "blocks": [
@@ -1074,7 +1074,7 @@
             "id": "a9736169-04fe-4fc8-a886-b218650bca6f",
             "type": "basic.code",
             "data": {
-              "code": "parameter M = 3_000_000;\nlocalparam N = $clog2(M);\n\nreg [N-1:0] divcounter = 0;\n\nalways @(posedge clk_in)\n    if (divcounter == M - 1)\n    begin\n        divcounter <= 0;\n    end    \n    else\n    begin\n        divcounter <= divcounter + 1;\n    end\n\nassign clk_out = divcounter[N - 1];",
+              "code": "parameter M = 3_000_000;\nlocalparam N = $clog2(M);\n\nreg [N-1:0] divcounter = 0;\n\nalways @(posedge clk_in)\n    if (divcounter == M - 1)\n        divcounter <= 0;\n    else\n        divcounter <= divcounter + 1;\n\nassign clk_out = divcounter[N - 1];",
               "ports": {
                 "in": [
                   "clk_in"
