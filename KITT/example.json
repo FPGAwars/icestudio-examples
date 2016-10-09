@@ -1,0 +1,9 @@
+{
+  "name": "KITT",
+  "version": "1.0.0",
+  "author": "Democrito",
+  "license": "GPL-2.0",
+  "keywords": "",
+  "description": "Se trata de 8 leds y uno de ellos hace el movimiento de vaivén, como en la serie de TV \"El coche fantástico\"",
+  "icestudio": ">=0.2.1"
+}

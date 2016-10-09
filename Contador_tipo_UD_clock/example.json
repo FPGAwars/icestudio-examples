@@ -1,0 +1,9 @@
+{
+  "name": "Contador tipo UD clock",
+  "version": "1.0.0",
+  "author": "Democrito",
+  "license": "GPL-2.0",
+  "keywords": "",
+  "description": "Contador reversible de 5 bits",
+  "icestudio": ">=0.2.1"
+}
