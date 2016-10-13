@@ -1,0 +1,9 @@
+{
+  "name": "counter-hand",
+  "version": "1.0.0",
+  "author": "Jesús Arroyo",
+  "license": "GPL-2.0",
+  "keywords": "",
+  "description": "4 bit counter using a robotic hand",
+  "icestudio": ">=0.2.1"
+}
