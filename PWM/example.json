@@ -1,9 +1,0 @@
-﻿{
-  "name": "PWM",
-  "version": "1.0.0",
-  "author": "Democrito",
-  "license": "GPL-2.0",
-  "keywords": "",
-  "description": "Dos ejemplos de PWM, rampa y senoidal",
-  "icestudio": ">=0.2.1"
-}
