@@ -1,0 +1,9 @@
+﻿{
+  "name": "Frequency meters",
+  "version": "1.0.0",
+  "author": "Democrito",
+  "license": "GPL-2.0",
+  "keywords": "",
+  "description": "Frequency meter 0..9999Hz",
+  "icestudio": ">=0.2.1"
+}
