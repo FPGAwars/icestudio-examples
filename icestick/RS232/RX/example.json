@@ -1,0 +1,9 @@
+﻿{
+  "name": "RS232_RX",
+  "version": "1.0.0",
+  "author": "Democrito",
+  "license": "GPL-2.0",
+  "keywords": "",
+  "description": "Examples of FPGA receivers with multiples baudrates for RS232.",
+  "icestudio": ">=0.2.1"
+}
