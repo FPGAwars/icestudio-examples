@@ -1,0 +1,9 @@
+{
+  "name": "Contador-HOYGANMUNDO",
+  "version": "1.0.0",
+  "author": "JorFru",
+  "license": "GPL-2.0",
+  "keywords": "Contador-biestables-",
+  "description": "un contador hecho con componentes discretos (biestables)",
+  "icestudio": ">=0.2.4-dev"
+}
