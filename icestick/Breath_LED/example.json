@@ -1,0 +1,9 @@
+{
+  "name": "Breathing LED",
+  "version": "1.0.0",
+  "author": "Carlos Diaz",
+  "license": "GPL-2.0",
+  "keywords": "LED, PWM, Contadores, Comparadores",
+  "description": "The LED5 on the iceStick board fade in and out.",
+  "icestudio": ">=0.2.1"
+}
